@@ -1,0 +1,29 @@
+.bgCont {
+  margin-top: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.playAgain {
+  background-color: #ffffff;
+  border-width: 0px;
+  padding: 11px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.won-loss {
+  color: #ffffff;
+}
+
+.result-container {
+  border-width: 1px solid #ffffff;
+  text-align: center;
+  color: aqua;
+}

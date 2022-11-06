@@ -1,0 +1,25 @@
+.headerContainer {
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.scoreContainer {
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: Roboto;
+  color: rgba(73, 58, 53, 0.575);
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.score {
+  font-family: 'Roboto';
+}
