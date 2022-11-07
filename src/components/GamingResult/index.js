@@ -3,7 +3,7 @@ import Popup from 'reactjs-popup'
 import './index.css'
 
 const GamingResult = props => {
-  const {choicesList, score, index, back, btnValue} = props
+  const {choicesList, index, back, btnValue} = props
   const onClickPlayAgain = () => {
     back()
   }

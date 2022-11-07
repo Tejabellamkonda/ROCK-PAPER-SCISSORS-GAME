@@ -3,7 +3,7 @@ import Popup from 'reactjs-popup'
 import './index.css'
 
 const PlayingView = props => {
-  const {choicesList, score, handleChange} = props
+  const {choicesList, handleChange} = props
   const Rock = choicesList[0]
   const Scissor = choicesList[1]
   const Paper = choicesList[2]

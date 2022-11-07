@@ -26,8 +26,6 @@ const choicesList = [
 
 class App extends Component {
   state = {
-    score: 0,
-
     isClick: true,
 
     indexVal: '',
@@ -46,15 +44,14 @@ class App extends Component {
   }
 
   render() {
-    const {score, isClick, indexVal, btnValue} = this.state
+    const {isClick, indexVal, btnValue} = this.state
 
     return (
       <div className="appContainer">
-        <Header score={score} />
+        <Header />
         {isClick ? (
           <PlayingView
             choicesList={choicesList}
-            score={score}
             handleChange={this.handleChange}
           />
         ) : (
