@@ -60,8 +60,6 @@ class App extends Component {
             index={indexVal}
             back={this.back}
             btnValue={btnValue}
-            increaseScore={this.increaseScore}
-            decreaseScore={this.decreaseScore}
           />
         )}
       </div>
